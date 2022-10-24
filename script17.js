@@ -2,16 +2,16 @@
 
 let count = document.getElementById("buttonCountNumber");
 
-document.getElementById("buttonCountPlus").onclick = function() {
+document.getElementById("buttonCountPlus").onclick = function () {
     let countPlus = count.innerHTML;
-    if(+countPlus <= 11111){
+    if (+countPlus <= 11111) {
         count.innerHTML++;
     }
 }
 
-document.getElementById("buttonCountMinus").onclick = function() {
+document.getElementById("buttonCountMinus").onclick = function () {
     let countMinus = count.innerHTML;
-    if(+countMinus >= 1){
+    if (+countMinus >= 1) {
         count.innerHTML--;
     }
 }
@@ -34,7 +34,7 @@ document.getElementById("buttonCountMinus").onclick = function() {
 
 console.log(document.getElementsByTagName('div')[4]);
 console.log(document.querySelectorAll('div')[4]);
-console.log (document.getElementById ('important'));
+console.log(document.getElementById('important'));
 
 
 let selector = 'ul > li[data-id="woman"]';
